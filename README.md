@@ -48,10 +48,10 @@ Before setting up the pipeline, ensure you have the following:
 Follow these steps to run the ETL pipeline and verify that each component is working as expected.
 
 - **Run the Data Generator Script**  
-   Use the [`data_generator.py`](data_generator.py) script to populate the DynamoDB table with sample sales data. This triggers the pipeline to start processing data:
+   Use the [`data_generator.py`](moka_data_generator.py) script to populate the DynamoDB table with sample sales data. This triggers the pipeline to start processing data:
 
    ```bash
-   python data_generator.py
+   python moka_data_generator.py
 ---
 
 ## Project Structure
@@ -61,7 +61,7 @@ Below is an overview of the project structure and key files:
 ```plaintext
 Real-Time-CDC-ETL-Pipeline-for-Sales-Data/
 │
-├── data_generator.py       # Script for generating mock sales data and loading it into DynamoDB
+├── moka_data_generator.py       # Script for generating mock sales data and loading it into DynamoDB
 ├── lambda_function.py      # Lambda function for transforming Kinesis data before storage in S3
 ├── README.md               # Project documentation with setup and usage instructions
 └── architecture.png        # Architecture diagram depicting the ETL pipeline workflow
