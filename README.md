@@ -1,11 +1,11 @@
-# AWS: Real-Time-CDC-ETL-Pipeline-for-Sales-Data
+# AWS: Real-Time CDC Data Streaming Pipeline
 This project implements a Change Data Capture pipeline on AWS to process and analyze real-time sales data. The pipeline captures changes in a DynamoDB table, streams the data through Kinesis, performs transformations using Lambda, and stores the processed data in S3. The data is cataloged using AWS Glue and made queryable in Athena for analysis.
 
 ## Data-Flow Diagram
 
 Below is an architecture diagram of the pipeline, showing the flow from data generation to querying in Athena.
 
-![Data-Flow Diagram](DataArchitecture.png)
+![Data-Flow Diagram](Data Architecture.png)
 
 ## Prerequisites
 
