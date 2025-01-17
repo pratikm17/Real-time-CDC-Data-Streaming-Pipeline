@@ -5,7 +5,7 @@ This project implements a Change Data Capture pipeline on AWS to process and ana
 
 Below is an architecture diagram of the pipeline, showing the flow from data generation to querying in Athena.
 
-![Data-Flow Diagram](Data Architecture.png)
+![Data-Flow Diagram](Architecture.png)
 
 ## Prerequisites
 
