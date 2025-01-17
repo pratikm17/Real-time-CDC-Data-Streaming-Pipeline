@@ -48,7 +48,7 @@ Before setting up the pipeline, ensure you have the following:
 Follow these steps to run the ETL pipeline and verify that each component is working as expected.
 
 - **Run the Data Generator Script**  
-   Use the [`data_generator.py`](moka_data_generator.py) script to populate the DynamoDB table with sample sales data. This triggers the pipeline to start processing data:
+   Use the [`moka_data_generator.py`](moka_data_generator.py) script to populate the DynamoDB table with sample sales data. This triggers the pipeline to start processing data:
 
    ```bash
    python moka_data_generator.py
